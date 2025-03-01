@@ -26,7 +26,7 @@ else:
     if "chat_session" not in st.session_state:
         st.session_state.chat_session = model.start_chat(history=[])
 
-    st.title("Chat - Bot")
+    st.title("🤖Leader - Bot")
 
     for message in st.session_state.chat_session.history:
         with st.chat_message(message.role):
