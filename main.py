@@ -19,7 +19,7 @@ else:
 
     # Use a valid model from list_models()
     try:
-        model = gen_ai.GenerativeModel("gemini-1.5-pro")  # Change this based on list_models()
+        model = gen_ai.GenerativeModel("learnlm-2.0-flash-experimental")  # Change this based on list_models()
     except Exception as e:
         st.error(f"Error loading model: {e}")
 
